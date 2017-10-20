@@ -17,7 +17,7 @@
     app:leftStartValue="5"
     app:rightStartValue="18"
     app:thumbSize="24dp" />
-    ```
+  ```
 
 Or set start values dynamically:
 
