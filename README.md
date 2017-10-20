@@ -2,6 +2,7 @@
 
   A simple, double- thumb bar that allows you to pick an interval from given data set.
   Current thumb value is updated to nearest discrete value as it moves.
+  Currently works with hardcoded interval of 1 and with Integers only.
 
   ![Alt text](https://media.giphy.com/media/3o6nUQNQRXFZI3NsM8/giphy.gif)
 
@@ -30,7 +31,7 @@
 Or set start values dynamically:
 
 ```java
-rangeBar.setStartValues(_leftStartValue_,_rightStartValue_)
+rangeBar.setStartValues(leftStartValue,rightStartValue)
 ```
 
 Attach listener to get current thumb values:
