@@ -3,6 +3,12 @@
   A simple, double- thumb bar that allows you to pick an interval from given data set.
   Current thumb value is updated to nearest discrete value as it moves.
 
+  Add the dependency to you build.gradle:
+
+  ```java
+  	compile 'com.github.JanPawlov:IntervalRangeBar:1.0'
+  ```
+
   To implement IntervalRangeBar, simply add this to your layout:
 
   ```xml
