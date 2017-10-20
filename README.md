@@ -30,9 +30,7 @@ Attach listener to get current thumb values:
 ```java
 rangeBar.attachValueListener(object : IntervalRangeBar.ThumbsValueListener {
     override fun thumbsValuesUpdated(leftThumbValue: Int, rightThumbValue: Int) {
-        fromHour.text = String.format("%d:00", leftThumbValue)
-        toHour.text = String.format("%d:00", rightThumbValue)
-        defaultSharedPreferences.edit().putString(TIME_FILTERS, String.format("%d:00-%d:00", leftThumbValue, rightThumbValue)).apply()
+      //TODO Do what you want with the values
     }
 })
 ```
