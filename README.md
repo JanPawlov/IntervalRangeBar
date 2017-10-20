@@ -6,7 +6,7 @@
   Add the dependency to you build.gradle:
 
   ```java
-  	compile 'com.github.JanPawlov:IntervalRangeBar:1.0'
+  compile 'com.github.JanPawlov:IntervalRangeBar:1.0'
   ```
 
   To implement IntervalRangeBar, simply add this to your layout:
