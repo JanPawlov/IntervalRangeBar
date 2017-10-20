@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="def_corner_radius">8dp</dimen>
+    <dimen name="def_bar_height">8dp</dimen>
+    <dimen name="def_thumb_size">16dp</dimen>
+    <dimen name="def_bar_padding">8dp</dimen>
+</resources>

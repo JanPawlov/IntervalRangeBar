@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IntervalRangeBar">
+
+        <attr name="leftThumb" format="integer" />
+        <attr name="rightThumb" format="integer" />
+        <attr name="barBackground" format="integer" />
+        <attr name="leftThumbColor" format="reference|color" />
+        <attr name="rightThumbColor" format="reference|color" />
+        <attr name="selectedBarColor" format="reference|color" />
+        <attr name="barHeight" format="dimension" />
+        <attr name="leftStartValue" format="integer" />
+        <attr name="rightStartValue" format="integer" />
+        <attr name="minValue" format="integer" />
+        <attr name="maxValue" format="integer" />
+        <attr name="thumbSize" format="dimension" />
+        <attr name="interval" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="RangeBarLayoutParams">
+        <attr name="android:layout_gravity" />
+        <attr name="android:visibility" />
+        <attr name="layout_position">
+            <enum name="middle" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
