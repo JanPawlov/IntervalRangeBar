@@ -3,7 +3,7 @@
   A simple, double- thumb bar that allows you to pick an interval from given data set.
   Current thumb value is updated to nearest discrete value as it moves.
 
-  ![Lol](http://gph.is/2ywMPA4)
+  ![Alt text](https://media.giphy.com/media/3o6nUQNQRXFZI3NsM8/giphy.gif)
 
   Add the dependency to you build.gradle:
 
